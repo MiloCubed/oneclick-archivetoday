@@ -8,15 +8,16 @@ This is useful if the page you're browsing no longer exists, and you want to qui
 
 ## Installation
 
-TO BE UPDATED
+[Install One-click archive.today via Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/one-click-archive-today/)
 
 ## Features
 
-* Button.
+* Just a button.
 * It's [5 lines of code](background.js).
-* **No special permissions.**
+* No options.
+* No special permissions.
 
 ## Alternatives
 
 * [Archive Page](https://addons.mozilla.org/en-US/firefox/addon/archive-page/): Also for archive.today, but One-click archive.today will **search** for the page, while Archive Page will **save** the page to archive when the toolbar icon is clicked (you can still search for the page via the context menu though).
-* [Extension "Web Archives"](https://github.com/dessant/web-archives): Search many different archive engines. More features, more UI, more permissions.
+* [Web Archives](https://github.com/dessant/web-archives): Search many different archive engines. More features, more UI, more permissions.

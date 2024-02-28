@@ -1,29 +1,30 @@
 {
-    "manifest_version": 2,
-    "name": "One-click archive.today",
-    "description": "View cached versions of your current page in archive.today.",
-    "homepage_url": "https://github.com/MiloCubed/oneclick-archivetoday",
-    "version": "0.1",
-    "icons": {
-        "48": "icon.svg"
-    },
-    "permissions": [
-	// Needed to get the current tab's URL.
-        "activeTab"
-    ],
-    "browser_action": {
-        "default_title": "One-click archive.today",
-        "browser_style": true
-    },
-    "background": {
-        "scripts": [
-            "background.js"
-        ]
-    },
-    "browser_specific_settings": {
-        "gecko": {
-	    // Needed for 'browser_action' on Firefox for Android.
-            "strict_min_version": "55.0"
-        }
+  "manifest_version": 2,
+  "name": "One-click archive.today",
+  "description": "View cached versions of your current page in archive.today.",
+  "homepage_url": "https://github.com/MiloCubed/oneclick-archivetoday",
+  "version": "0.2",
+  "icons": {
+    "48": "icon.svg"
+  },
+  "permissions": [
+    // Needed to get the current tab's URL.
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "One-click archive.today",
+    "browser_style": true
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      // Needed for 'browser_action' on Firefox for Android.
+      "strict_min_version": "55.0",
+      "id": "{c4bcb70b-d89e-4e73-acb4-a0b28918a2cb}"
     }
+  }
 }
